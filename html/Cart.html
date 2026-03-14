@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DemoStore is a shop online that sells various products."
+    />
+    <meta
+      name="keywords"
+      content="`DemoStore, online shop, products, buy online"
+    />
+    <link rel="stylesheet" href="../css_components/Main1.css" />
+    <link rel="stylesheet" href="../css_components/varibles.css" />
+    <meta name="author" content="Islam Mahmoud" />
+    <title>Demo Store</title>
+  </head>
+  <body>
+    <!--  NavBar Section  -->
+    <header>
+      <nav class="menu">
+        <h2 class="h2-nav">Demo Store</h2>
+        <ul class="links">
+          <a href="../Main.html" class="link"><li>Home</li></a>
+          <a href="../Main.html#About-Us" class="link"><li>About</li></a>
+          <a href="products.html" class="link"><li>Products</li></a>
+          <a href="../Main.html#Contact-Us" class="link"><li>Contact</li></a>
+          <a href="Cart.html" class="link"><li>Cart</li></a>
+          <button class="button-toggle" id="btn-toggle">☰</button>
+        </ul>
+      </nav>
+    </header>
+    <!---------------------------------------------------------------------------------------------->
+    <main>
+      <section class="cart" id="cart">
+        <h2 class="h2-cart">Cart</h2>
+        <div class="cart1">
+          <div class="payment">
+          </div>
+          <div class="cart-content"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("BckkUPh-Pzb0qgK4Y");
+      })();
+    </script>
+    <script src="../JS/Main.js"></script>
+  </body>
+</html>

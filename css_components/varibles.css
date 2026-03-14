@@ -1,0 +1,19 @@
+:root {
+    --bg-dark: #080808;      
+    --bg-surface: #121212;    
+    --bg-input: #1a1a1a;      
+
+    --primary: #00ff41;      
+    --primary-glow: #00ff414d ;
+    
+    --danger: #ff2525;        
+    --text-main: #e0e0e0;    
+    --text-muted: #888888;    
+    
+    --border: 1px solid #222;
+    --border-active: 1px groove #00ff41;
+}
+::selection {
+    background-color: var(--primary);
+    color: var(--bg-dark);
+}

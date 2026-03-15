@@ -604,7 +604,7 @@ hr {
     .Contact-Us {
     
     padding: 3rem 1.5rem; 
-    min-height: auto; 
+    opacity: 1;
   }
 
   .h2-contact, .h2-contact1 {
@@ -616,6 +616,7 @@ hr {
     width: 100%; 
     padding: 1.5rem; 
     border-radius: 10px;
+    opacity: 1;
   }
 
   .input-group input, 
